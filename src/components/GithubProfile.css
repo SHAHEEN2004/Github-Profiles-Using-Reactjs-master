@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .user-card {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .user-card img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .user-card h2 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  
+  .user-card a {
+    display: block;
+    margin-top: 10px;
+    color: #0366d6;
+    font-size: 18px;
+  }
+  .alp{
+    text-align: center;
+  }
+  .view-profile-btn {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #0366d6;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+  }
+  h1 {
+    font-size: 36px;
+    color: #0366d6;
+    margin-bottom: 20px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .user-card {
+      width: 100%;
+    }
+  }
+  
